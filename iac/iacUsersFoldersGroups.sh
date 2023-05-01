@@ -91,7 +91,7 @@ sudo chown root:GRP_ADM adm > /dev/null 2>&1
 saidaPA=$?
 if [ $saidaPA -eq 0 ] ;
 then
-   sudo chmod 777 adm
+   sudo chmod 770 adm
    echo "Propriedades da pasta adm alteradas com sucesso"
 else
    echo "Erro ao alterar propriedades da pasta adm"
@@ -102,7 +102,7 @@ sudo chown root:GRP_VEN ven > /dev/null 2>&1
 saidaPV=$?
 if [ $saidaPV -eq 0 ] ;
 then
-   sudo chmod 777 ven
+   sudo chmod 770 ven
    echo "Propriedades da pasta ven alteradas com sucesso"
 else
    echo "Erro ao alterar propriedades da pasta ven"
@@ -113,7 +113,7 @@ sudo chown root:GRP_SEC sec > /dev/null 2>&1
 saidaPS=$?
 if [ $saidaPS -eq 0 ] ;
 then
-   sudo chmod 777 sec
+   sudo chmod 770 sec
    echo "Propriedades da pasta sec alteradas com sucesso"
 else
    echo "Erro ao alterar propriedades da pasta sec"
