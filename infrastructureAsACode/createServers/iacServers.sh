@@ -14,11 +14,11 @@ echo "Instalando unzip"
 sudo apt install unzip -y
 
 #Acessar pasta temp
-echo "Obtendo arquivos do site"
+echo "Obtendo arquivos da aplicação"
 cd /tmp
 wget https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip
 unzip main.zip
 cd linux-site-dio-main
 sudo cp -r * /var/www/html/
 sudo service apache2 start
-echo "Arquivos obtidos com sucesso, site no ar"
+echo "Arquivos obtidos com sucesso, aplicação no ar"
