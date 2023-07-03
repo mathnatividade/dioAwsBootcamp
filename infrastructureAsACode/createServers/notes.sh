@@ -14,11 +14,3 @@ cd ~
 sudo cat smbConf.txt >> /etc/samba/smb.conf
 sudo systemctl restart smbd
 sudo systemctl enable smbd
-
-#Instalar Apache
-sudo apt install apache2 -y
-
-#Instalar MySQL
-sudo apt instal mysql-server-8.0
-
-
