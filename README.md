@@ -1,7 +1,5 @@
 # Dio AWS Bootcamp
 
-![Logo da AWS](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1200px-Amazon_Web_Services_Logo.svg.png)
-
 Bem-vindo ao repositório Dio AWS Bootcamp! Este repositório contém o código e os recursos de vários projetos concluídos durante o AWS Bootcamp na plataforma DIO. Abaixo está a estrutura de diretórios deste repositório:
 
 ```
@@ -62,6 +60,3 @@ Este arquivo contém a configuração para o serviço Samba, permitindo acesso �
 ### Script de Criação de Usuário e Pasta (`iacUsersFoldersGroups.sh`):
 
 Este script cria grupos de usuários (`GRP_ADM`, `GRP_VEN`, `GRP_SEC`) e as respectivas pastas (`adm`, `ven`, `sec`) no diretório raiz. Além disso, ele cria usuários específicos em cada grupo e atribui as permissões adequadas às pastas correspondentes.
-
-## Como executar
-Cada projeto possui suas próprias instruções de execução. Siga as instruções específicas de cada pasta para configurar e executar corretamente os projetos. Certifique-se de ter as dependências necessárias instaladas e configuradas antes de executar os scripts.
