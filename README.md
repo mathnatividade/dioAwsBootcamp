@@ -1,5 +1,7 @@
 # Dio AWS Bootcamp
 
+[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/matheusnatividade/)
+
 Bem-vindo ao repositório Dio AWS Bootcamp! Este repositório contém o código e os recursos de vários projetos concluídos durante o AWS Bootcamp na plataforma DIO. Abaixo está a estrutura de diretórios deste repositório:
 
 ```
